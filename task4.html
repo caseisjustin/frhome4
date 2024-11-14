@@ -1,0 +1,71 @@
+<div class="head">
+  <div class="cnt">
+    <div class="hair">
+    </div>
+    <div class="hair">
+    </div>
+  </div>
+  <div class="ctn_eye">
+    <div class="eyes">
+    </div>
+    <div class="eyes">
+    </div>
+  </div>
+  <div class="mouth">
+  </div>
+  
+</div>
+<style>
+  body{
+    width: 96%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #293462;
+  }
+  .head {
+    background: #FE5F55;
+    height: 70%;
+    width: 50%;
+    border-radius: 100% 100% 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    gap: 1rem;
+  }
+  .cnt{
+    width: 100%;
+    height: calc(100% / 3);
+    display: flex;
+  }
+  .hair{
+    width: 100%;
+    height: 150%;
+    border-radius: 50%;
+    background: #FFF1C1;
+    position: relative;
+    top: -70%;
+  }
+  .ctn_eye{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  .eyes{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFF1C1;
+    position: relative;
+  }
+  .mouth{
+    width: 20%;
+    height: 5%;
+    background: #FFF1C1;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+</style>

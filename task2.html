@@ -1,0 +1,36 @@
+<div></div>
+<style>
+
+  body{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6592CF;
+  }
+  div{
+    border-radius: 50%;
+    border: 73px #243D83 solid;
+    outline: 50px #6592CF solid;
+    background-color: #243D83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div::before {
+    content: "";
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+    position: absolute;
+    z-index: -1
+  }
+  div::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background: #EEB850;
+  }
+</style>
